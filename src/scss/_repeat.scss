@@ -1,0 +1,35 @@
+button:focus {outline:0 !important;}
+
+.navbar-inverse .navbar-brand {
+	color: #cc0000;
+}
+
+.navbar-fixed-top {
+	z-index: 99999;
+}
+
+/*repeat*/
+.dashW {
+    height: 5px;
+    display: block;
+    width: 60px;
+    background-color: #cc0000;
+    margin-top: 25px;
+ 	margin-bottom: 10px;
+}
+
+.titile-itemW {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25px;
+	padding-top: 10px;
+
+}
+
+.bg-whiteW {
+	background-color: white;
+}
+.bg-redW {
+	background-color: #cc0000;
+	color: white;
+}

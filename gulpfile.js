@@ -63,8 +63,9 @@ gulp.task('html', function () {
 gulp.task('browser-sync', function () {
 	console.log('browser-sync work!');
 	browserSync({
-		server:{
-			baseDir: 'public'
+		server: {
+			baseDir: 'public',
+			proxy: "grqbge-nwx7013:3000"
 		}
 	});
 });
